@@ -1,4 +1,4 @@
-# databricks_training
+# databricks-training
 Databricks training practice
 This repository contains my daily practice and learning during databricks training
 ## structure
