@@ -112,3 +112,67 @@ WHERE salary < 50000;
 35. SELECT *
 FROM Employees
 WHERE experience > 5;
+##LOGICAL OPERATORS
+36. SELECT *
+FROM Employees
+WHERE department = 'IT' AND salary > 70000;
+37. SELECT *
+FROM Employees
+WHERE city = 'Hyderabad' OR city = 'Bangalore';
+38. SELECT *
+FROM Employees
+WHERE department = 'HR' AND experience < 3;
+39. SELECT *
+FROM Employees
+WHERE salary > 60000 OR experience > 6;
+40. SELECT *
+FROM Employees
+WHERE NOT department = 'Sales';
+##INANDOUT
+41. SELECT *
+FROM Employees
+WHERE city IN ('Hyderabad', 'Mumbai');
+42. SELECT *
+FROM Employees
+WHERE department IN ('IT', 'Finance');
+43. SELECT *
+FROM Employees
+WHERE city NOT IN ('Chennai', 'Pune');
+44. SELECT *
+FROM Employees
+WHERE salary IN (45000, 75000, 91000);
+45. SELECT *
+FROM Employees
+WHERE department NOT IN ('HR', 'Sales');
+##BETWEEN 
+46. SELECT *
+FROM Employees
+WHERE salary BETWEEN 50000 AND 80000;
+47. SELECT *
+FROM Employees
+WHERE experience BETWEEN 3 AND 6;
+48. SELECT *
+FROM Employees
+WHERE emp_id BETWEEN 105 AND 112;
+49. SELECT *
+FROM Employees
+WHERE salary NOT BETWEEN 40000 AND 60000;
+50. SELECT *
+FROM Employees
+WHERE experience BETWEEN 2 AND 4;
+##LIKE OPERATOR
+51. SELECT *
+FROM Employees
+WHERE emp_name LIKE 'R%';
+52. SELECT *
+FROM Employees
+WHERE emp_name LIKE '%a';
+53. SELECT *
+FROM Employees
+WHERE emp_name LIKE '%v%';
+54. SELECT *
+FROM Employees
+WHERE city LIKE 'B%';
+55. SELECT *
+FROM Employees
+WHERE department LIKE '%s';
